@@ -41,6 +41,11 @@ namespace MODULE2.Controllers
             return Content(myResult);
         }
 
+        public IActionResult ShopperProfile()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

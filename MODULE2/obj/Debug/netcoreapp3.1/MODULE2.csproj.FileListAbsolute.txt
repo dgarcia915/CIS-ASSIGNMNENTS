@@ -387,3 +387,4 @@
 /Users/dannygarcia/Desktop/CIS ASSIGNMENTS/MODULE2/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/dannygarcia/Desktop/CIS ASSIGNMENTS/MODULE2/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/dannygarcia/Desktop/CIS ASSIGNMENTS/MODULE2/obj/Debug/netcoreapp3.1/MODULE2.MvcApplicationPartsAssemblyInfo.cs
+/Users/dannygarcia/Desktop/CIS ASSIGNMENTS/MODULE2/obj/Debug/netcoreapp3.1/Razor/Views/Home/ShopperProfile.cshtml.g.cs

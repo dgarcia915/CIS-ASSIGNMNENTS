@@ -1,0 +1,73 @@
+﻿@page
+@{
+}
+<form>
+    <fieldset>
+        <legend> User Personal Information </legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="FirstName"> First Name: </label>
+                    </td>
+                    <td>
+                        <input name="FirstName"
+                               type="text"
+                               id="FirstName"
+                               placeholder="Add your First Name" />
+
+                        <label for="LastName"> Last Name: </label>
+                        <input name="LastName"
+                               type="text"
+                               id="LasttName"
+                               placeholder="Add your Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="MaleGender" name="OrderFilter" />
+                        <label for="MaleGender"> Male </label>
+                        <input type="radio" id="FemaleGender" name="OrderFilter" />
+                        <label for="FemaleGender"> Female </label>
+                        <input type="radio" id="NoResponse" name="OrderFilter" />
+                        <label for="NoResponse"> Prefer not to repsond </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Email addess: </label>
+                    </td>
+                    <td>
+                        <input name="Email"
+                               type="text"
+                               id="Email"
+                               placeholder="Add your Email Adress"
+                               size="35"
+                               maxlength="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Country of Residence:</label>
+                    </td>
+                    <td>
+                        <select name="Country" id="Country">
+                            <option> USA </option>
+                            <option> Mexico </option>
+                            <option> Canada </option>
+                            <option> China </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Update User Information"/> 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</form>
