@@ -3,106 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>My Gram</title>
+    <meta http-equiv="content-security-policy"
+          content="img-src 'self' " />
+    <meta http-equiv="content-security-policy"
+          content="iframe-src 'https://www.youtube.com/embed/tJp_3-VZZjI' " />
+    <title>My Gram</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <style>
-        #container {
-            text-align:center;
-        }
-        img {
-            width: 150px;
-            height;
-            150px;
-        }
-        iframe {
-            width: 150px;
-            height;
-            150px;
-        }
-    </style>
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                My Gram 
+                My Gram
             </div>
-            <div class="container" id="container"> <button id="LogIn"> Log In</button>  </div>
-              <button> Sign Up </button> 
-            
-            
+            <div class="container" id="container">
+                <button id="LogIn"> Log In</button>
+                <a href="~/Home/Register"> <button> Sign Up </button> </a>
+            </div>
         </nav>
     </header>
-    <table>
-        <tbody>
-            <tr>
-                <td rowspan="3">
-                    <img alt="selfie" src="~/Images/selfie.JPG" />
-                </td>
-                <td>
-                    Beyond_Danny <button> Follow </button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    666 Post     -2 Followers     1 Following
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Follow me i promise i wont follow back :)
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <p> </p>
-    <div>
-        <a href="https://www.google.com/"> Posts </a>
-        <a href="https://www.google.com/"> Reels </a>
-        <a href="https://www.google.com/"> IGTV </a>
-        <a href="https://www.google.com/"> Tagged </a>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
-    <p> </p>
+
+    <footer class="border-top footer text-muted">
         <div class="container">
-            <main role="main" class="pb-3">
-                @RenderBody()
-                <div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th> <img alt="Pantera" src="~/Images/pantera.jpeg" />     </th>
-                                <th> <img alt="RastaKing" src="~/Images/bob.jpeg" />      </th>
-                                <th> <img alt="Cafesito" src="~/Images/cafe.jpg" />      </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td> <img alt="FOREVER LIVE CEPILLIN <3" src="~/Images/cepellin.jpeg" />     </td>
-                                <td> <img alt="MH" src="~/Images/mh.jpg" />     </td>
-                                <td> <iframe src="https://www.youtube.com/embed/tJp_3-VZZjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </main>
+            <a href="https://www.google.com/"> About </a>
+            <a href="https://www.google.com/"> Blog </a>
+            <a href="https://www.google.com/"> Jobs </a>
+            <a href="https://www.google.com/"> Help </a>
+            <a href="https://www.google.com/"> English </a>
+            <a href="https://www.google.com/"> 2021 MyGram </a>
         </div>
-
-        <footer class="border-top footer text-muted">
-            <div class="container">
-                <a href="https://www.google.com/"> About </a>
-                <a href="https://www.google.com/"> Blog </a>
-                <a href="https://www.google.com/"> Jobs </a>
-                <a href="https://www.google.com/"> Help </a>
-                <a href="https://www.google.com/"> English </a>
-                <a href="https://www.google.com/"> 2021 MyGram </a>
-
-            </div>
-        </footer>
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-        @RenderSection("Scripts", required: false)
-
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
