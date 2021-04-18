@@ -32,6 +32,14 @@ namespace MODULE2.Controllers
         {
             return View();
         }
+        public IActionResult SaveUser (string Username, string Password)
+        {
+            string myResult =
+                "The user is:" + Username +
+                "and the Password is" + Password;
+
+            return Content(myResult);
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
