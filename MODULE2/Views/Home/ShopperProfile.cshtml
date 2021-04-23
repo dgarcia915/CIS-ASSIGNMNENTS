@@ -1,6 +1,12 @@
 ﻿@page
 @{
 }
+<style>
+    select {
+        width: 400px;
+
+    }
+</style>
 <form>
     <fieldset>
         <legend> User Personal Information </legend>
@@ -15,7 +21,6 @@
                                type="text"
                                id="FirstName"
                                placeholder="Add your First Name" />
-
                         <label for="LastName"> Last Name: </label>
                         <input name="LastName"
                                type="text"
@@ -40,11 +45,12 @@
                     <td>
                         <label>Choose your Favorite Color: </label>
                     </td>
-                    <td colspan="2">
+                    <td>
                         <input type="color" id="FavoriteColor" />
-                    </td>
-                    <td colspan="2">
-                        <label for="birthday"> Birthday: </label>
+                        <label for="birthday">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Birthday:
+                        </label>
                         <input type="date" id="birthday" />
                     </td>
                 </tr>
@@ -52,26 +58,34 @@
                     <td>
                         <label> Email addess: </label>
                     </td>
-                    <td>
+                    <td colspan="3">
                         <input name="Email"
                                type="text"
                                id="Email"
                                placeholder="Add your Email Adress"
-                               size="35"
-                               maxlength="50" />
+                               size="48"
+                               maxlength="100" />
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label> Country of Residence:</label>
                     </td>
-                    <td>
-                        <select name="Country" id="Country">
+                    <td colspan="4" >
+                        <select  name="Country" id="Country">
                             <option> USA </option>
                             <option> Mexico </option>
                             <option> Canada </option>
                             <option> China </option>
                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Select Profile Image:</label>
+                    </td>
+                    <td>
+                        <input type="file" value="Choose Files"/> 
                     </td>
                 </tr>
                 <tr>
