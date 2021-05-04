@@ -83,6 +83,7 @@ img {
     font-size: xx-large;
     font-family: cursive;
     color:black;
+    text-decoration:none;
 }
 
 .GramButtons {
@@ -104,11 +105,11 @@ img {
     color: dodgerblue;
 }
 
-#Footer {
-    background-color: #fafafa;
-}
-
-.Links {
+.Links, Footer {
+    background-color:#cccccc;
     font: Apple Chancery;
-    color: #cccccc;
+    color: Black;
+}
+.pb-3{
+    background-color:#fafafa;
 }

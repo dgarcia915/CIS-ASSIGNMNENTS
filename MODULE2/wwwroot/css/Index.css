@@ -14,9 +14,29 @@ iframe {
 }
 
 .GramButtons {
-    background-color: dodgerblue;
+    background-color: #0095f6;
     color: white;
 }
+    .GramButtons:hover {
+        background-color: royalblue;
+        color: white;
+    }
+#MTable {
+    position:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#SelfiePic {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+.links2 {
+    color:grey;
+    text-decoration:none;
+    text-align:center;
 
-
-
+}
+.links2:hover {
+    color:black
+}
