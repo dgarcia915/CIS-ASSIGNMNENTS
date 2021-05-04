@@ -1,0 +1,22 @@
+﻿
+#container {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+iframe {
+    width: 150px;
+    height: 150px;
+}
+
+.GramButtons {
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+

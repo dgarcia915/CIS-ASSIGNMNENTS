@@ -14,24 +14,17 @@
 </head>
 <body>
     <header>
-        <style>
-            img {
-                width: 150px;
-                height: 150px;
-            }
-            #usericon {
-                width: 50px;
-                height: 50px;
-            }
-        </style>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                My Gram
+              <a href="~/Home/Index" id="MyGram"> My Gram </a>
             </div>
-            <div class="container" id="container">
-                <button id="LogIn"> Log In</button>
-                <a href="~/Home/Register"> <button> Sign Up </button> </a>
-                <a href="~/Home/ShopperProfile"> <img src="~/Images/usericon.JPG" id="usericon"/> </a>
+            <div class="container">
+                <input type="text" placeholder="Search..." /> 
+            </div>
+            <div class="container">
+                <button class="GramButtons" href="~/Home/LogIn"> Log In </button>
+                <button class="GramButtons" href="~/Home/Register"> Sign Up </button>
+                <a href="~/Home/ShopperProfile"> <img src="~/Images/usericon.JPG" id="usericon" /> </a>
             </div>
         </nav>
     </header>
@@ -42,14 +35,14 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            <a href="https://www.google.com/"> About </a>
-            <a href="https://www.google.com/"> Blog </a>
-            <a href="https://www.google.com/"> Jobs </a>
-            <a href="https://www.google.com/"> Help </a>
-            <a href="https://www.google.com/"> English </a>
-            <a href="https://www.google.com/"> 2021 MyGram </a>
+    <footer id="Footer" class="border-top footer text-muted">
+        <div  class="container">
+            <a class="Links" href="https://www.google.com/"> About </a>
+            <a class="Links" href="https://www.google.com/"> Blog </a>
+            <a class="Links" href="https://www.google.com/"> Jobs </a>
+            <a class="Links" href="https://www.google.com/"> Help </a>
+            <a class="Links" href="https://www.google.com/"> English </a>
+            <a class="Links" href="https://www.google.com/"> 2021 MyGram </a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

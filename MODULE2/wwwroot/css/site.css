@@ -69,3 +69,46 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#usericon {
+    width: 50px;
+    height: 50px;
+}
+#MyGram {
+    font: bold;
+    font-size: xx-large;
+    font-family: cursive;
+    color:black;
+}
+
+.GramButtons {
+    background-color: dodgerblue;
+    color: white;
+    border-style:solid;
+    border-width: 1px;
+    border-color:white;
+    border-radius:10px;
+    text-decoration:none;
+    padding:5px 10px 5px 10px;
+
+}
+
+.GramButtons:hover {
+    background-color: grey;
+    border-color: white;
+    border-width: 2px;
+    color: dodgerblue;
+}
+
+#Footer {
+    background-color: #fafafa;
+}
+
+.Links {
+    font: Apple Chancery;
+    color: #cccccc;
+}
