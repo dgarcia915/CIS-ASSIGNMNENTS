@@ -100,6 +100,22 @@ body {
     border-width: 2px;
     color: dodgerblue;
 }
+.GramButtons2 {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: RGBA(0,0,0,.8);
+    text-decoration: none;
+}
+}
+.GramButtons2:hover {
+    color: white;
+    background-color: royalblue;
+    text-decoration: none;
+    }
+
 
 .Links, footer {
     text-align: center;
@@ -109,4 +125,19 @@ body {
 }
 .pb-3{
     background-color:#fafafa;
+}
+#SignUp {
+    text-decoration: none;
+}
+
+#MContainer {
+    background-color: RGBA(0,0,0,.8);
+    height: 100px;
+    color: white;
+    text-align: left;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(1px) brightness(0.5);
 }
