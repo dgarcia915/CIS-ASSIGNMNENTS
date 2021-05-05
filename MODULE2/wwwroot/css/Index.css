@@ -2,8 +2,7 @@
 #container {
     text-align: center;
 }
-
-img {
+#imgclass1 {
     width: 150px;
     height: 150px;
 }
@@ -31,6 +30,12 @@ iframe {
     height:150px;
     border-radius:50%;
 }
+#SelfiePic2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 .links2 {
     color:grey;
     text-decoration:none;
@@ -39,4 +44,8 @@ iframe {
 }
 .links2:hover {
     color:black
+}
+.Fav {
+    position:center;
+    text-align:center;
 }
