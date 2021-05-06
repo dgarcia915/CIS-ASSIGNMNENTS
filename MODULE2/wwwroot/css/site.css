@@ -135,9 +135,23 @@ body {
     height: 100px;
     color: white;
     text-align: left;
-    position: fixed;
+    position: center;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
     backdrop-filter: blur(1px) brightness(0.5);
+    animation-name: Animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
+
+@keyframes Animation {
+    from {
+        visibility: visible;
+    }
+
+    to {
+        visibility: hidden;
+    }
